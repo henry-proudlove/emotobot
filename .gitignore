@@ -29,7 +29,14 @@
 # SASS #
 ######################
 .sass-cache
+css/compressssed
 css/main.css.map
+
+# GRUNT # 
+######################
+node_modules/
+node_modules/**/node_modules/
+bower_components/
 
 # OS generated files #
 ######################
@@ -46,3 +53,19 @@ Thumbs.db
 ######################
 
 .htpasswd
+
+node_modules/grunt-bower-task/node_modules/async/package.json
+
+node_modules/grunt-bower-task/node_modules/async/package.json
+
+node_modules/grunt-bower-task/node_modules/async/package.json
+
+node_modules/grunt-bower-task/node_modules/bower/node_modules/archy/package.json
+
+node_modules/grunt-bower-task/node_modules/async/package.json
+
+node_modules/grunt-bower-task/node_modules/bower/node_modules/archy/package.json
+
+node_modules/grunt-bower-task/node_modules/bower/node_modules/bower-config/package.json
+
+node_modules/grunt-bower-task/node_modules/async/package.json
