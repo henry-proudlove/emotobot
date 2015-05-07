@@ -35,7 +35,6 @@ css/main.css.map
 # GRUNT # 
 ######################
 node_modules/
-node_modules/**/node_modules/
 bower_components/
 
 # OS generated files #

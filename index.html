@@ -27,17 +27,16 @@
      version 25 or later.</p>
 </div>
 	<div class="right">
-	  <button id="start_button">
-	    <img id="start_img" src="mic.gif" alt="Start"></button>
+	  <!-- <button id="start_button" onclick="startButton(event)"> -->
+		  <button id="start_button"><img id="start_img" src="mic.gif" alt="Start"></button>
 	</div>
 	<div id="results">
-	  <span id="final_span" class="final"></span>
-	  <span id="interim_span" class="interim"></span>
+	  <span id="emotions" class="interim"></span>
 	  <p>
 	</div>
   <p>
   <div id="div_language">
-    <select id="select_language"></select>
+    <select id="select_language" onchange="updateCountry()"></select>
     &nbsp;&nbsp;
     <select id="select_dialect"></select>
   </div>
@@ -45,7 +44,5 @@
 <script src="/emotobot/bower_components/jquery/dist/jquery.min.js"></script>
 <script src="/emotobot/js/langs.js"></script>
 <script src="/emotobot/js/main.js"></script>
-<script>
-
-</script>
+<script src="/emotobot/js/recognition.js"></script>
 </body>
